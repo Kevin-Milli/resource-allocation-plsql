@@ -3,7 +3,7 @@
 ## Utilities
 For this project, a log table and a package `PKG_UTILS` have been used to facilitate the logging of data into the log table. The package is defined as follows:
 
-```plsql
+```sql
 create or replace package pkg_utils is
     procedure plog(p_caller varchar2, p_orcl_code varchar2, p_orcl_msg varchar2);
 end;
